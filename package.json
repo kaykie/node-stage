@@ -1,0 +1,39 @@
+{
+  "name": "koa-test2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development ./node_modules/.bin/nodemon bin/www",
+    "prd": "cross-env NODE_ENV=production pm2 start bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ali-oss": "^6.8.0",
+    "apollo-server-koa": "^2.4.8",
+    "archiver": "^3.1.1",
+    "cross-env": "^7.0.2",
+    "dayjs": "^1.8.27",
+    "debug": "^2.6.3",
+    "formidable": "^1.2.1",
+    "koa": "^2.2.0",
+    "koa-body": "^4.1.0",
+    "koa-bodyparser": "^3.2.0",
+    "koa-convert": "^1.2.0",
+    "koa-graphql": "^0.8.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^2.0.1",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^7.1.1",
+    "koa-static": "^3.0.0",
+    "koa-views": "^5.2.1",
+    "koa2-cors": "^2.0.6",
+    "log4js": "^3.0.2",
+    "mockjs": "^1.0.1-beta3",
+    "mysql": "^2.17.1",
+    "pug": "^2.0.0-rc.1",
+    "request": "^2.85.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  }
+}
